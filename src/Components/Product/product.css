@@ -50,6 +50,94 @@
     margin-top: 50px;
     
 }
+
+.active-order{
+    margin: 10px;
+    background-color: #fff;
+    width: 400px;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.active-title{
+    color: #bc0101;
+    font-size: 25px;
+    font-weight: 600;
+}
+.active-orders{
+    margin-top: 10px;
+    position: relative;
+}
+.order-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+
+.order-info .amount
+{
+    color: red;
+    font-size: 15px;
+}
+.order-info .unit-price{
+    color: #737373;
+
+}
+.order-info .total-price{
+    color: #737373;
+    font-weight: bold;
+}
+.delete-btn{
+    position: absolute;
+    right: 15px;
+    border:1px solid #000;
+    border-radius: 50%;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+.bot-line{
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: 1px solid #ddd;
+
+}
+.total-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.total-price h3{
+    font-size: 25px;
+    
+}
+.carbon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #eee;
+    height: 40px;
+    border-radius: 8px;
+}
+.order-button{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.order-button button{
+    width: 90%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: #a34633;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 15px;
+}
 @media (max-width: 1573px) {
     .product {
         grid-template-columns: repeat(2, 1fr); /* Daha küçük ekranlarda 2 sütun */
